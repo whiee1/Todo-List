@@ -8,7 +8,7 @@ body {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 35px;
-  text-shadow: 2px 4px 5px#98b6ab;
+  text-shadow: 2px 4px 5px #98b6ab;
 }
 .wrapper {
   background: rgb(255 255 255 / 46%);
@@ -29,6 +29,7 @@ body {
 #task_input {
   width: 300px;
   height: 40px;
+  font-size: 16px;
 }
 .task_form button {
   padding: 15px;
@@ -54,6 +55,7 @@ body {
   font-size: 30px;
   color: #3f3e41;
   width: 40px;
+  height: 40px;
   margin-right: 7px;
   border-radius: 20%;
   background: linear-gradient(#64e6b03a, #9198e598);
