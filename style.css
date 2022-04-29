@@ -1,0 +1,61 @@
+body {
+  box-sizing: border-box;
+  margin: 2rem auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(#64e6b0bd, #4aa8d3a2, #4578d6c0, #64e6b0bd);
+}
+.top_heading {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+  text-shadow: 2px 4px 5px#98b6ab;
+}
+.wrapper {
+  background: rgb(255 255 255 / 46%);
+  padding: 50px 0;
+  max-width: 500px;
+  margin: auto;
+}
+.task_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task_form > label,
+.task_form button {
+  margin: 10px;
+  font-size: 17px;
+}
+#task_input {
+  width: 300px;
+  height: 40px;
+}
+.task_form button {
+  padding: 15px;
+  border-radius: 15px;
+  background: linear-gradient(#9ff5d1, #81db98);
+  border: 2px solid rgb(100, 177, 145);
+  color: #3f3e41;
+  font-weight: bold;
+}
+.task_list {
+  list-style: none;
+  max-width: 400px;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.726);
+  border-radius: 5px;
+  margin: auto;
+}
+.task_list li {
+  border: 1px solid rgb(128, 126, 126);
+  padding: 10px;
+}
+.remove_task_btn {
+  font-size: 30px;
+  color: #3f3e41;
+  width: 40px;
+  margin-right: 7px;
+  border-radius: 20%;
+  background: linear-gradient(#64e6b03a, #9198e598);
+  border: 2px solid rgba(117, 147, 185, 0.623);
+}
